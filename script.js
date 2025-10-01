@@ -17,7 +17,7 @@ function sayHello() {
     let animal;
   
     if (rand < 89) {
-      const common = ["Кіт", "Собачка", "Голуб", "Кінь"];
+      const common = ["Кіт", "Собачка", "Голуб", "Кінь-цок-цок"];
       animal = common[Math.floor(Math.random() * common.length)];
     } else if (rand < 99) {
       const rare = ["Кінь", "Ква"];
