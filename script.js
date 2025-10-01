@@ -2,7 +2,7 @@ function sayHello() {
     alert("Hello from GitHub Pages!");
   }
   
-  unction pickAnimal() {
+function pickAnimal() {
     const rand = Math.random() * 100;
     let animal;
 
